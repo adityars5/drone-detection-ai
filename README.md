@@ -11,6 +11,14 @@ An end-to-end Computer Vision and Deep Learning system designed to detect, track
 
 ---
 
+## 📸 Live Detection Demo & Benchmark Preview
+
+| 🎯 Tactical HUD Airspace Detection | 📊 Benchmark Metrics (T4 GPU) |
+| :---: | :---: |
+| ![Tactical HUD Detection](assets/detection_demo.jpg) | ![Benchmark Metrics](assets/metrics_chart.png) |
+
+---
+
 ## 📌 Project Overview
 
 | Attribute | Details |
