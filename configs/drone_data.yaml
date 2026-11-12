@@ -1,0 +1,17 @@
+# YOLOv8 Dataset Configuration for Drone Detection
+# Used for training, validation, and testing
+
+# Path relative to project root or absolute path
+path: ../datasets/drone-dataset
+
+# Split directories (relative to 'path')
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: drone

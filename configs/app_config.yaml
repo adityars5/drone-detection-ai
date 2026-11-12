@@ -1,0 +1,28 @@
+# Application Configuration for Drone Detection AI
+app:
+  title: "🚁 Drone Detection AI - Surveillance & Perimeter Defense"
+  description: "Autonomous real-time drone and UAV intrusion detection powered by YOLOv8."
+  port: 7860
+  share: false
+
+model:
+  default_weights: "weights/best.pt"
+  fallback_weights: "yolov8n.pt"
+  target_classes:
+    - "drone"
+    - "uav"
+    - "quadcopter"
+  confidence_threshold: 0.35
+  iou_threshold: 0.45
+  image_size: 640
+
+alerts:
+  enable_sound: false
+  threat_threshold_confidence: 0.70
+  threat_threshold_count: 2
+
+simulation:
+  frame_width: 854
+  frame_height: 480
+  fps: 20
+  simulated_drones: 2
