@@ -58,3 +58,6 @@ desktop.ini
 # Logs & Cache
 *.log
 .cache/
+
+aircraft-engine-failure-prediction/
+
